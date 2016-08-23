@@ -1,5 +1,4 @@
-Chat APIs (Documented as well as I could without internet):
-
+# Chat APIs
 Mark as read API: `https://chat.roblox.com/v1.0/mark-as-read` - Parameters: `conversationId`, `endMessageId`
 
 Mark as seen API: `https://chat.roblox.com/v1.0/mark-as-seen` - Parameters: Unknown
@@ -28,7 +27,7 @@ Add to conversation API: `https://chat.roblox.com/v1.0/add-to-conversation` - Pa
 
 Remove from conversation API: `https://chat.roblox.com/v1.0/remove-from-conversation` - Parameters: `participantUserId`, `conversationId`
 
-Party APIs (Documented as well as I could without internet):
+# Party APIs
 Create party API: https://chat.roblox.com/v1.0/party/create - Parameters: invitedUserIds, conversationId
 Party invite API: https://chat.roblox.com/v1.0/party/invite - Parameters: invitedUserId, partyId
 Leave party API: https://chat.roblox.com/v1.0/party/leave - Parameters: partyId
