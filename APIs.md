@@ -28,11 +28,20 @@ Add to conversation API: `https://chat.roblox.com/v1.0/add-to-conversation` - Pa
 Remove from conversation API: `https://chat.roblox.com/v1.0/remove-from-conversation` - Parameters: `participantUserId`, `conversationId`
 
 # Party APIs
-Create party API: https://chat.roblox.com/v1.0/party/create - Parameters: invitedUserIds, conversationId
-Party invite API: https://chat.roblox.com/v1.0/party/invite - Parameters: invitedUserId, partyId
-Leave party API: https://chat.roblox.com/v1.0/party/leave - Parameters: partyId
-Join party API: https://chat.roblox.com/v1.0/party/join - Parameters: partyId
-Get party invites: https://chat.roblox.com/v1.0/party/get-invites - Parameters: pageNumber, pageSize
-Get current party API: https://chat.roblox.com/v1.0/party/get-current - Parameters: Unknown
-Remove from party API: https://chat.roblox.com/v1.0/party/remove-from-party - Parameters: partyId, userId
-Get parties for conversations API: https://chat.roblox.com/v1.0/party/get-parties-for-conversations - Parameters: conversationIds
+
+Create party API: `https://chat.roblox.com/v1.0/party/create` - Parameters: `invitedUserIds`, `conversationId`
+
+Party invite API: `https://chat.roblox.com/v1.0/party/invite` - Parameters: `invitedUserId`, `partyId`
+
+Leave party API: `https://chat.roblox.com/v1.0/party/leave` - Parameters: `partyId`
+
+Join party API: `https://chat.roblox.com/v1.0/party/join` - Parameters: `partyId`
+
+Get party invites: `https://chat.roblox.com/v1.0/party/get-invites` - Parameters: `pageNumber`, `pageSize`
+
+Get current party API: `https://chat.roblox.com/v1.0/party/get-current` - Parameters: Unknown
+
+Remove from party API: `https://chat.roblox.com/v1.0/party/remove-from-party` - Parameters: `partyId`, `userId`
+
+Get parties for conversations API: `https://chat.roblox.com/v1.0/party/get-parties-for-conversations` - Parameters: `conversationIds`
+
