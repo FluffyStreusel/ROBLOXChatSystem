@@ -1,6 +1,8 @@
 Chat APIs (Documented as well as I could without internet):
-Mark as read API: ```https://chat.roblox.com/v1.0/mark-as-read``` - Parameters: conversationId, endMessageId
-Mark as seen API: https://chat.roblox.com/v1.0/mark-as-seen - Parameters: Unknown
+
+Mark as read API: `https://chat.roblox.com/v1.0/mark-as-read` - Parameters: `conversationId`, `endMessageId`
+
+Mark as seen API: `https://chat.roblox.com/v1.0/mark-as-seen` - Parameters: Unknown
 Send message API: https://chat.roblox.com/v1.0/send-message - Parameters: conversationId, message
 Get conversations API: https://chat.roblox.com/v1.0/get-conversations - Parameters: conversationIds
 User conversations API: https://chat.roblox.com/v1.0/get-user-conversations - Parameters: pageNumber, pageSize
