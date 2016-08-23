@@ -11,9 +11,13 @@ htmlEntities: function(n) {
 ```
 
 **Function breakdown of `htmlEntities(n)`:**
+
 1. Replaces all messages with an ampersand (&) disabling them with &amp;.
+
 2. Replaces all messages with brackets (< and >) disabling them with their counterparts &lt; (<) and &gt; (>).
+
 3. Replaces all messages with quotes disabling the plaintext quotes with &quot; (").
+
 
 ## sanitizeMessage
 
