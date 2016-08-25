@@ -14,7 +14,7 @@ htmlEntities: function(n) {
 
 1. Replaces all messages with an ampersand (&) disabling them with `&amp;`.
 
-2. Replaces all messages with brackets (< and >) disabling them with their counterparts `&lt;` (<) and `&gt;` (>).
+2. Replaces all messages containing HTML brackets (< and >) disabling them with their counterparts `&lt;` (<) and `&gt;` (>).
 
 3. Replaces all messages with quotes disabling the plaintext quotes with `&quot;` (").
 
