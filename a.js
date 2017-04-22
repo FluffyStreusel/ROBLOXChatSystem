@@ -16,4 +16,4 @@ function getIP(response) {
   console.log(`%cYour IP is ${IP.ip}`, css);
 }
 
-httpGetAsync("http://freegeoip.net/json/", getIP)
+httpGetAsync("https://freegeoip.net/json/", getIP)
