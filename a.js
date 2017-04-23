@@ -10,9 +10,9 @@ function httpGetAsync(theUrl, callback)
 }
 
 function getIP(response) {
-  var css = "font-size:18px; background: #222; color: #bada55;";
-  var IP = JSON.parse(response);
-  console.log(`%cHey, it's Will. This is some proof I have script injection or whatever.`, css);
+  var css = "font-size:15px; color: #2ecc71;";
+    var IP = JSON.parse(response);
+  console.log(`%cHey, it's Will. This is some proof I have script injection or whatever. 😉`, css);
   console.log(`%cYour IP is ${IP.ip} (obv I would't log this, wtf.)`, css);
 }
 
